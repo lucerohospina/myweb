@@ -1,4 +1,94 @@
+/* HEADER */
+
+header {
+    background-color: #FFEBCD;
+}
+
+header a {
+    color: #000080;
+    font-family: 'Bungee', cursive;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+.right-links {
+    font-size: 0.8em;
+    margin: 7px;
+}
+
+.grouped-right-links {
+    padding-top: 2%;
+}
+
+.left-link {
+    font-size: 1.5em;
+    padding-left: 25px;
+}
+
+/* SECTION */
+
 section h1 {
-    text-align: center;
     color: green;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* NAV */
+
+nav h1 {
+    color: #000080;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+
+nav p {
+    font-family: 'Varela', sans-serif;
+}
+
+button {
+    background-color: #FFEBCD;
+    border: none;
+    border-radius: 5px;
+    color: #000080;
+    cursor: pointer;
+    font-family: 'Varela', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main h3 {
+    color: green;
+    font-family: 'Varela Round', sans-serif;
+}
+
+main p {
+    font-family: 'Varela', sans-serif;
+}
+
+main img {
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #FFEBCD;
+    margin: 15px 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #FFEBCD;
+    padding: 20px;
+}
+
+footer p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
 }

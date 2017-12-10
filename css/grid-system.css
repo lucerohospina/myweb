@@ -11,7 +11,7 @@
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1355px;
     /* height: 100%; */
 }
 
@@ -23,7 +23,7 @@
 
 [class*="col-"] {
     /* float: left; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /*gutters*/
     padding: 15px;
 }
@@ -32,6 +32,9 @@
 [class*='col-'] {
     float: left;
     padding: 15px;
+  }
+  .xs-none {
+    display: none;
   }
   .col-xs-1 {
     width: 8.33333333%;
@@ -76,6 +79,9 @@
   /* clases para TABLET  */
 
   @media (min-width: 768px) {
+    .xs-none {
+      display: inline;
+    }
     .col-sm-1 {
       width: 8.33333333%;
     }
@@ -119,6 +125,9 @@
 
   /* clases para DESKTOP */
   @media (min-width: 992px) {
+    .xs-none {
+      display: inline;
+    }
     .col-md-1 {
       width: 8.33333333%;
     }
