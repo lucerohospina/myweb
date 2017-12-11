@@ -36,6 +36,18 @@
   .xs-none {
     display: none;
   }
+  .fa-bars {
+    display: inline-block;
+    border: 1px solid #ffff;
+    border-radius: 20px;
+    margin-top: 5%;
+    padding: 10px;
+    text-align: center;
+  }
+  .fa-bars:hover {
+    color: #ffff;
+    transition: 0.5s ease-out;
+  }
   .col-xs-1 {
     width: 8.33333333%;
   }
@@ -80,7 +92,14 @@
 
   @media (min-width: 768px) {
     .xs-none {
-      display: inline;
+      display: inline-block;
+    }
+    .fa-bars {
+      display: none;
+    }
+    .left-link {
+      font-size: 1.5em;
+      padding-left: 25px;
     }
     .col-sm-1 {
       width: 8.33333333%;
@@ -126,7 +145,14 @@
   /* clases para DESKTOP */
   @media (min-width: 992px) {
     .xs-none {
-      display: inline;
+      display: inline-block;
+    }
+    .fa-bars {
+      display: none;
+    }
+    .left-link {
+      font-size: 1.5em;
+      padding-left: 25px;
     }
     .col-md-1 {
       width: 8.33333333%;
