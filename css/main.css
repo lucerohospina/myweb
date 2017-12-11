@@ -11,7 +11,6 @@ header {
 header a {
     color: #000080;
     font-family: 'Bungee', cursive;
-    /* font-weight: bold; */
     text-decoration: none;
 }
 
@@ -114,4 +113,48 @@ footer p {
     font-size: 0.8em;
     font-weight: bold;
     text-align: center;
+}
+
+/* MENU ANIMADO */
+
+#animated-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FFEBCD;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20%;
+}
+
+#animated-menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+    font-size: 1em;
+    color: #000080;
+    cursor: pointer;
+    display: block;
+    transition: 0.3s;
+}
+
+#animated-menu a:hover {
+    color: #ffff;
+    background-color: #000080;
+    transition: 0.5s ease-out;
+}
+
+#animated-menu #close-menu {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2em;
+    margin-left: 25%;
+}
+
+#animated-menu #close-menu:hover {
+    color: #ffff;
 }
