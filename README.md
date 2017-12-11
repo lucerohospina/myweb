@@ -4,10 +4,10 @@
 
 * Se nos proporcionó una estructura base de página web: 
 
->vista tablet/desktop:
+>**vista tablet/desktop:**
 
 ![Sin titulo](assets/docs/estructura1.JPG)
 
->vista mobile:
+>**vista mobile:**
 
 ![Sin titulo](assets/docs/mobile.png)

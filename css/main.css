@@ -21,11 +21,13 @@ header i {
 .right-links {
     font-size: 0.8em;
     margin: 7px;
+    padding: 7px;
 }
 
 .right-links:hover {
     background-color: #000080;
     color: #ffff;
+    border-radius: 15px;
     transition: 0.5s ease-out;
 }
 
@@ -44,6 +46,10 @@ header i {
 
 /* SECTION */
 
+section {
+    padding-top: 20px;
+}
+
 section h1 {
     color: #228B22;
     font-family: 'Bubblegum Sans', cursive;
@@ -52,6 +58,10 @@ section h1 {
 }
 
 /* NAV */
+
+nav {
+    padding-top: 25px;
+}
 
 nav h1 {
     color: #000080;
@@ -79,9 +89,14 @@ button {
 button:hover {
     background-color: #000080;
     color: #ffff;
+    transition: 0.5s ease-out;
 }
 
 /* MAIN */
+
+main {
+    padding: 20px;
+}
 
 main h3 {
     color: #228B22;

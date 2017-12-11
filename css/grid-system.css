@@ -12,7 +12,6 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1355px;
-    /* height: 100%; */
 }
 
 .row::after {
@@ -22,9 +21,6 @@
 }
 
 [class*="col-"] {
-    /* float: left; */
-    /* border: 2px solid red; */
-    /*gutters*/
     padding: 15px;
 }
 
@@ -40,7 +36,7 @@
     display: inline-block;
     border: 1px solid #ffff;
     border-radius: 20px;
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 10px;
     text-align: center;
   }
